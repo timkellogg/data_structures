@@ -1,4 +1,4 @@
-RSpec.describe Algos::Queue do
+RSpec.describe DataStructures::Queue do
   subject { described_class.new }
 
   describe "#dequeue" do

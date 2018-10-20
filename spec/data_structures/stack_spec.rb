@@ -1,4 +1,4 @@
-RSpec.describe Algos::Stack do
+RSpec.describe DataStructures::Stack do
   subject { described_class.new }
 
   describe "#pop" do

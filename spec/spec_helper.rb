@@ -1,9 +1,8 @@
 require "bundler/setup"
-require "algos"
+require "data_structures"
 require 'pry'
 
 Dir["./spec/support/**/*.rb"].sort.each { |f| require f }
-
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

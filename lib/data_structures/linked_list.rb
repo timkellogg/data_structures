@@ -1,4 +1,4 @@
-module Algos
+module DataStructures
   class LinkedList
     attr_reader :head
 

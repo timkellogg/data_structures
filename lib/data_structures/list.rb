@@ -1,4 +1,4 @@
-module Algos
+module DataStructures
   class List
     attr_reader :elements
 

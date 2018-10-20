@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "algos/version"
+require "data_structures/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "algos"
-  spec.version       = Algos::VERSION
+  spec.name          = "data_structures"
+  spec.version       = DataStructures::VERSION
   spec.authors       = ["Tim Kellogg"]
   spec.email         = ["tim.kellogg@gmail.com"]
 
-  spec.summary       = "Implementation of algos data structure in Ruby"
-  spec.description   = "Implementation of algos data structure in Ruby"
-  spec.homepage      = "https://github.com/timkellogg/algos"
+  spec.summary       = "Implementation of common data structures in Ruby"
+  spec.description   = "Implementation of common data structures in Ruby"
+  spec.homepage      = "https://github.com/timkellogg/data_structures"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

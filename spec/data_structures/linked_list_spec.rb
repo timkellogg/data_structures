@@ -1,4 +1,4 @@
-RSpec.describe Algos::LinkedList do
+RSpec.describe DataStructures::LinkedList do
   subject { described_class.new }
 
   describe "#initialize" do
@@ -29,7 +29,7 @@ RSpec.describe Algos::LinkedList do
 
       subject.prepend 3
 
-      expect(subject.find(3).class).to eq Algos::Node
+      expect(subject.find(3).class).to eq DataStructures::Node
       expect(subject.find(3).value).to eq 3
     end
   end

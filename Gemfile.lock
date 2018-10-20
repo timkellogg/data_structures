@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    algos (0.1.0)
+    data_structures (0.1.0)
 
 GEM
   remote: http://rubygems.org/
@@ -31,7 +31,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  algos!
+  data_structures!
   bundler (~> 1.16)
   pry
   rake (~> 10.0)

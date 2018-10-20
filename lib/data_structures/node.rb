@@ -1,4 +1,4 @@
-module Algos
+module DataStructures
   class Node
     attr_accessor :value, :child
 

@@ -1,4 +1,4 @@
-module Algos
+module DataStructures
   class Queue < List
     def enqueue(element)
       elements << element
