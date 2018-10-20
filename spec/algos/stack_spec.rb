@@ -1,14 +1,14 @@
 RSpec.describe Algos::Stack do
   let(:stack) { described_class.new }
 
-  describe "#size" do
-    it "returns the number of elements in the stack" do
-      expect(stack.size).to eq 0
+  it_behaves_like "a list", described_class
 
+  describe "#pop" do
+    it "removes the first element from the stack" do
       stack.push 1
-      stack.push 2
-
-      expect(stack.size).to eq 2
+      stack.pop
+      
+      expect(stack.size).to eq 0
     end
   end
 
@@ -21,25 +21,6 @@ RSpec.describe Algos::Stack do
       stack.push 2
 
       expect(stack.elements).to eq [2, 1]
-    end
-  end
-
-  describe "#pop" do
-    it "removes the first element from the stack" do
-      stack.push 1
-      stack.pop
-      
-      expect(stack.size).to eq 0
-    end
-  end
-
-  describe "#empty?" do
-    it "returns a boolean for whether there are any elements in the stack" do
-      expect(stack.empty?).to eq true
-
-      stack.push 1
-
-      expect(stack.empty?).to eq false
     end
   end
 

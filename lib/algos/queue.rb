@@ -1,7 +1,7 @@
 module Algos
-  class Stack < List
+  class Queue < List
     def push(element)
-      elements.unshift element
+      elements << element
     end
   end
 end
