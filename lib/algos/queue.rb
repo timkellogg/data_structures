@@ -1,7 +1,11 @@
 module Algos
   class Queue < List
-    def push(element)
+    def enqueue(element)
       elements << element
+    end
+
+    def dequeue
+      elements.shift
     end
   end
 end
